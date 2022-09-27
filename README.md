@@ -9,9 +9,11 @@ to operate: no compilation, no debugging is required; it is simply plug and pla
 Enjoy simulating the UCG!
 
 ### Pre-requisites
--Hardware requirements: Any Intel or AMD x86-64 processor, 4 GB RAM.
--Program language: MATLAB
--Software required: MATLAB/SIMULINK 2019 or higher
+
+
+- Hardware requirements: Any Intel or AMD x86-64 processor, 4 GB RAM.
+- Program language: MATLAB
+- Software required: MATLAB/SIMULINK 2019 or higher
 
 
 ## Steps to run CAVLAB: 
