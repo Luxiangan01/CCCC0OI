@@ -36,7 +36,9 @@ OR
 
 
  You can paramatrize the UCG by defining your own inputs, and changing the properties of coal reactor by editing the variables
-in 'in.INP' file. You can also change the time-step information at which the numerical computation of simulation are carried out by editing the:
+in 'in.INP' file.
+
+You can also change the time-step information at which the numerical computation of simulation are carried out by editing the:
 Simulation---> Configuration Parameters---> Solver details---> Fixed-step size.
 
 
