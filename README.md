@@ -6,6 +6,8 @@ or compositions and is applicable to nonswelling coals with any seam thickness. 
 to CAVSIM, such as input signals can easily be designed in MATLAB, inputs and outputs are observable in runtime, a controllable
 structure wherein the controller design process has become streamlined. Moreover, unlike CAVSIM, CAVLAB is user-friendly
 to operate: no compilation, no debugging is required; it is simply plug and play. 
+
+
 Enjoy simulating the UCG!
 
 ### Pre-requisites
