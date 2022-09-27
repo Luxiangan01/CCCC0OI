@@ -1,0 +1,90 @@
+* input for CAVSM. Format, line #'s must be conserved: Space required
+* between variable name and equal sign, and between equal sign and value
+*  title
+ ititle(1) = ' RMI CRIP side day 12.5 thru 32.5     '
+ ititle(6) = ' tfail=700k, dchannel=70m             '
+*
+* define 1-d roof parameter file names
+ coal1fnam =  rc713t.dat
+ coal2fnam =  rc713t.dat
+ rockfnam  =  rrhannat.dat
+*
+*
+* failure temp (k) and spall angle (rad)
+  tfail = 700.  spangle = 0.0
+*
+*  end time  and maximum time step (s)
+  timemax = 3.9e+6   dtimemax = 3600
+* number of cavity points
+  np = 31
+*
+* ashflow calculator matrix size
+ nrflow = 31 nzflow = 31
+*
+*  permeability ash & rock rubble, native coal (m**2) gas loss fraction
+ permash = 2.96e-12  permrock = 2.96e-12  permcoal = 1.97e-13  glosfrac = 0.00
+*
+*  coal seam storativity (unitless), hydraulic head (Pa) pumpdown time (s)
+ storage = 6.7e-5  pinitial = 815000.   timepump = 1.1e+6   resfac = 2.
+*
+* smoothing params 1-void, 2-rubble 3-equalize void; 0=no, n=frequency
+  ismth =  1  1  4  0  0
+*
+* frational growth limit over one time step
+  fmovlim = 0.05
+*
+* feed rate  (# entries in table, time in (s) & flow rate in mol/s)
+ ni = 02
+ timi = 86400. 172800 302400 388800 1.296E+06 1.382E+06 1.642E+06  3.666E+06 
+ flwi = 35.    35.   35.0    35.     35.      35.        35.        35.
+*
+* pressure schedule, # entries, time in (s) and P in Pa (cp2 pressure)
+  npi = 1
+  tpresi  = 0.0     9.95e+5 1.17e+6 1.94e+6 1.95e+6 2.85e+6 2.93e+6
+  presi   = 750000. 827000. 654000. 654000. 709800. 709800. 640900.
+*
+* injected gas mol fraction schedules, # entries, times, o2 and h2o
+  nfi = 1
+  tfi    = 0.0
+  yo2in  = 0.3
+  yh2oin = 0.225
+*
+* injected gas temperature (K)
+  tempi = 430.
+*
+* initial cavity (only rad0 is dimensional (m) others are ratios)
+  rad0 = 1.82  htrad0 = 2.0 toprad0 = 1.00   bedrad0 = 0.75
+*
+* bed densities (kg/m**3)
+  rhobeda = 1000.0   rhobedc = 800.0   rhobedr = 1300.0
+*
+* angles of repose of char bed  (rad from horizontal)
+  omega = 0.125  gamma0=-0.65
+*
+* rock density (kg/m**3) & wt fraction water
+  rhorok = 2100.0   wwrok = 0.05
+*
+* location of overburden (m from floor)
+  hrok = 7.62
+*
+*  coal density (kg/m**3)
+  rhocol = 1250.0
+*
+*  coal composition (wt) fixed carbon, ash, & water   (volatiles calculated)
+  wc = 0.28  ww = 0.37  wa = 0.19  pgasfrac = 0.74
+*
+*  pyrolysis gas comp (mol) wmp, h2o+co2, h2+co, c's (kotowski & gunn 700C)
+   wmp = 0.02  yap = 0.66    ybp = 0.13  ycp = 0.38
+*
+* channel growth parameter iopt=0 for no channel, 1 otherwise)
+  iopt = 1
+*
+* following chnnel dimensions in (m)
+  dchannel = 70. hrock0 = 7.62 hrockf = 7.62  dbore0 = 0.35
+  dboref = 0.10  nptc = 20 nslice = 10
+*
+* ASCII output flag (0-only header info, 1-results for every time step)
+  iasc = 1
+* water influx distribution flag (0-only to wall,1-to wall and char rubble)
+  iwat = 1
+

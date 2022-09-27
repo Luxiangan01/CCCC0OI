@@ -1,0 +1,17 @@
+ Solid density (kg/m3)
+  1360.0
+ Solid composition ww,wc,wv wa  (weight fractions)
+   .2000   .4000   .2000   .2000
+ Failure temperature (K)
+   700.0
+ Failure length (m)
+   .0100
+ Pressure (Pa)
+ 305000.
+ Kinetic parameters for steam/char reaction, a(Pa.s)**-1, ta(K)
+ 4.10E-3 17500.0
+ number of rows
+ **
+    tr    tb     vroof    vbed    dp       tp    qrad    gmflx    ywr
+  919.5  1000.0  6.91E-6 6.88E-6 9.96E-3 831.6   1.55E+4   .1804  .986
+

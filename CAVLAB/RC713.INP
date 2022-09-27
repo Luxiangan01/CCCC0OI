@@ -1,0 +1,48 @@
+* file rc713.inp
+* water permeation velocity (meter/day)
+         0.000
+* wet coal density (kg/m**3)
+         1360.
+* wet coal composition ww,wc,wa
+    0.20 0.40 0.20
+* solid heat capacity (j/kg.k)
+       1650.
+* solid constant thermal conductivity (w/m.k)
+       1.0
+* surface temp BC (0=rad+conv flux, 1=conv flux, 2=const)
+            0
+* heat source temperature (k)
+         1000.
+* constant roof temperature (k)
+        1000.
+* heat xfer coef. (w/m**2.k)
+          50.
+* initial surface temperature (k)
+         1000.
+* initial time (s)
+          10.
+* initial dry zone length (m)
+          0.0001
+* maximum time step (s)
+           54.
+* end time (s)
+       290000.
+* number of spalls for averaging
+          5
+* failure temperature (k)
+           700.
+* failure length (m)
+            0.01
+* cavity pressure (pa)
+        3.05e+5
+* surface gasification (0=yes, 1=no)
+             0
+* reactive pyrolysis gases (0=yes,1=no)
+             0
+* solid thermal conductivity flag (0=radiative, 1=constant, 2=linear)
+            0
+* coefficients for linear conductivity relation k=a+bT
+ 0.89       -4.68d-4
+* result flag (0=results averaged over spalls, 1=transient profiles)
+            0
+

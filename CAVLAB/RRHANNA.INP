@@ -1,0 +1,48 @@
+* file rrhanna.inp
+* water permeation velocity (meter/day)
+         0.000
+* wet coal density (kg/m**3)
+         2100.
+* wet coal composition ww,wc,wa
+    0.08 0.00 0.92
+* solid heat capacity (j/kg.k)
+       921.0
+* solid constant thermal conductivity (w/m.k)
+       1.0
+* surface temp BC (0=rad+conv flux, 1=conv flux, 2=const)
+            0
+* heat source temperature (k)
+         1000.
+* constant roof temperature (k)
+        1000.
+* heat xfer coef. (w/m**2.k)
+          50.
+* initial surface temperature (k)
+          950.
+* initial time (s)
+          10.
+* initial dry zone length (m)
+          0.0005
+* maximum time step (s)
+           54.
+* end time (s)
+       290000.
+* number of spalls for averaging
+          5
+* failure temperature (k)
+           625.
+* failure length (m)
+            0.0109
+* cavity pressure (pa)
+        6.05e+5
+* surface gasification (0=yes, 1=no)
+             1
+* reactive pyrolysis gases (0=yes,1=no)
+             1
+* solid thermal conductivity flag (0=radiative, 1=constant, 2=linear)
+            2
+* coefficients for linear conductivity relation k=a+bT
+ 0.89       -4.68d-4
+* result flag (0=results averaged over spalls, 1=transient profiles)
+            0
+
