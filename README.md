@@ -1,3 +1,4 @@
+# About CAVLAB
 CAVLAB is MATLAB's version of the Cavity Simulation Model (CAVSIM), which was originally written in FORTRAN. CAVSIM is a 3-D and 
 axissymmetric model that can simulate an Underground Coal Gasification (UCG) process. It has the capability to predict the growth 
 of cavity from the start of coal combustion to its complete exhaustion. The model can handle a range of gas injection flow patterns 
@@ -11,7 +12,7 @@ Enjoy simulating the UCG!
 
 
 
-||-----------------------------------------------Running CAVLAB--------------------------------------------------------------------------|| 
+## Running CAVLAB: 
                       
 1) Save the folder CAVLAB anywhere on your hard-drive.
 2) Run MATLAB and change its working directory to the folder where you have stored the files in 1).
