@@ -8,10 +8,13 @@ structure wherein the controller design process has become streamlined. Moreover
 to operate: no compilation, no debugging is required; it is simply plug and play. 
 Enjoy simulating the UCG!
 
+### Pre-requisites
+-Hardware requirements: Any Intel or AMD x86-64 processor, 4 GB RAM.
+-Program language: MATLAB
+-Software required: MATLAB/SIMULINK 2019 or higher
 
 
-
-## Running CAVLAB: 
+## Steps to run CAVLAB: 
                       
  Save the folder CAVLAB anywhere on your hard-drive.
  
