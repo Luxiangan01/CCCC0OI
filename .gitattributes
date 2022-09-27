@@ -1,1 +1,1 @@
-*.rb linguist-language=MATLAB
+*.matlab linguist-detectable=true
