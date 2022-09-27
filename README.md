@@ -2,8 +2,7 @@ CAVLAB is MATLAB's version of the Cavity Simulation Model (CAVSIM), which was or
 axissymmetric model that can simulate an Underground Coal Gasification (UCG) process. It has the capability to predict the growth 
 of cavity from the start of coal combustion to its complete exhaustion. The model can handle a range of gas injection flow patterns 
 or compositions and is applicable to nonswelling coals with any seam thickness.A gravity drainage-permeation submodel that is
-incorporated into the overall solution determines the amount of water input from the coal aquifer. For the detailed discussion of
-the computational scheme, visit the link:
+incorporated into the overall solution determines the amount of water input from the coal aquifer. 
 
 
 
